@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#CDDC39</color>
+
+    <color name="ripple_color">#f2f2f2</color>
+
+    <color name="navigation_drawers_bg_color">#001119</color>
+
+    <color name="navigation_txt_color">#666666</color>
+
+    <color name="navigation_sep_color">#f2f2f2</color>
+
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/selector_view"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/ivNavigation"
+            android:src="@drawable/icon_menu_news"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            tools:ignore="ContentDescription"
+            style="@style/ivCommon"
+            />
+
+        <TextView
+            android:id="@+id/tvNavigationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ivNavigation"
+            android:layout_centerVertical="true"
+            android:textColor="@color/navigation_txt_color"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            tools:text="name" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/navigation_sep_color"
+        android:layout_marginLeft="15dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Navigation </string>
+    <string name="title_navigation_activity">Navigation Drawer Test</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="array_navigation">
+        <item>@string/menu_news</item>
+        <item>@string/menu_feeds</item>
+        <item>@string/menu_watchlive</item>
+        <item>@string/menu_popular_tags</item>
+        <item>@string/menu_settings</item>
+        <item>@string/menu_about</item>
+    </string-array>
+
+    <string name="menu_news">News</string>
+    <string name="menu_feeds">Feeds</string>
+    <string name="menu_watchlive">Watch live</string>
+    <string name="menu_popular_tags">Popular Tags</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+</resources>
